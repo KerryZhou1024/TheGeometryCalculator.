@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4033AD0248AB5FC00C05C6B /* DetailTextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4033ACF248AB5FC00C05C6B /* DetailTextInputTableViewCell.swift */; };
+		F41C559224A3A14000090D4C /* triangleSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C559124A3A14000090D4C /* triangleSolver.swift */; };
 		F429560B2489839100A04645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429560A2489839100A04645 /* AppDelegate.swift */; };
 		F429560D2489839100A04645 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429560C2489839100A04645 /* SceneDelegate.swift */; };
 		F429560F2489839100A04645 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429560E2489839100A04645 /* FirstViewController.swift */; };
@@ -17,6 +19,11 @@
 		F429561C2489839300A04645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F429561A2489839300A04645 /* LaunchScreen.storyboard */; };
 		F42956272489839300A04645 /* Geometry_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42956262489839300A04645 /* Geometry_calculatorTests.swift */; };
 		F42956322489839300A04645 /* Geometry_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42956312489839300A04645 /* Geometry_calculatorUITests.swift */; };
+		F42956422489C8F500A04645 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42956412489C8F500A04645 /* DetailViewController.swift */; };
+		F4589AA9248EB2E00031723C /* Polynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4589AA8248EB2E00031723C /* Polynomial.swift */; };
+		F49C99BA2493E6E8007FC86F /* SettingsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49C99B92493E6E8007FC86F /* SettingsTableController.swift */; };
+		F4DE8D7A248B473E000DDDAE /* CalculationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE8D79248B473E000DDDAE /* CalculationCenter.swift */; };
+		F4F80F9925251ED0002D24BF /* AppInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F80F9825251ED0002D24BF /* AppInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4033ACF248AB5FC00C05C6B /* DetailTextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTextInputTableViewCell.swift; sourceTree = "<group>"; };
+		F41C559124A3A14000090D4C /* triangleSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triangleSolver.swift; sourceTree = "<group>"; };
 		F42956072489839100A04645 /* Geometry calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geometry calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F429560A2489839100A04645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F429560C2489839100A04645 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +62,11 @@
 		F429562D2489839300A04645 /* Geometry calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geometry calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42956312489839300A04645 /* Geometry_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry_calculatorUITests.swift; sourceTree = "<group>"; };
 		F42956332489839300A04645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42956412489C8F500A04645 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F4589AA8248EB2E00031723C /* Polynomial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polynomial.swift; sourceTree = "<group>"; };
+		F49C99B92493E6E8007FC86F /* SettingsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableController.swift; sourceTree = "<group>"; };
+		F4DE8D79248B473E000DDDAE /* CalculationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationCenter.swift; sourceTree = "<group>"; };
+		F4F80F9825251ED0002D24BF /* AppInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +117,18 @@
 		F42956092489839100A04645 /* Geometry calculator */ = {
 			isa = PBXGroup;
 			children = (
-				F429560A2489839100A04645 /* AppDelegate.swift */,
 				F429560C2489839100A04645 /* SceneDelegate.swift */,
 				F429560E2489839100A04645 /* FirstViewController.swift */,
 				F42956102489839100A04645 /* SecondViewController.swift */,
+				F4033ACF248AB5FC00C05C6B /* DetailTextInputTableViewCell.swift */,
+				F49C99B92493E6E8007FC86F /* SettingsTableController.swift */,
+				F42956412489C8F500A04645 /* DetailViewController.swift */,
+				F4F80F9825251ED0002D24BF /* AppInformationViewController.swift */,
+				F429560A2489839100A04645 /* AppDelegate.swift */,
 				F42956122489839100A04645 /* Main.storyboard */,
+				F4DE8D79248B473E000DDDAE /* CalculationCenter.swift */,
+				F4589AA8248EB2E00031723C /* Polynomial.swift */,
+				F41C559124A3A14000090D4C /* triangleSolver.swift */,
 				F42956182489839300A04645 /* Assets.xcassets */,
 				F429561A2489839300A04645 /* LaunchScreen.storyboard */,
 				F429561D2489839300A04645 /* Info.plist */,
@@ -266,10 +287,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42956172489839100A04645 /* Geometry_calculator.xcdatamodeld in Sources */,
+				F4033AD0248AB5FC00C05C6B /* DetailTextInputTableViewCell.swift in Sources */,
+				F4DE8D7A248B473E000DDDAE /* CalculationCenter.swift in Sources */,
+				F4F80F9925251ED0002D24BF /* AppInformationViewController.swift in Sources */,
+				F4589AA9248EB2E00031723C /* Polynomial.swift in Sources */,
 				F42956112489839100A04645 /* SecondViewController.swift in Sources */,
+				F41C559224A3A14000090D4C /* triangleSolver.swift in Sources */,
 				F429560F2489839100A04645 /* FirstViewController.swift in Sources */,
+				F42956422489C8F500A04645 /* DetailViewController.swift in Sources */,
 				F429560B2489839100A04645 /* AppDelegate.swift in Sources */,
 				F429560D2489839100A04645 /* SceneDelegate.swift in Sources */,
+				F49C99BA2493E6E8007FC86F /* SettingsTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,14 +470,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G6V8P6TAH6;
 				INFOPLIST_FILE = "Geometry calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "defualt.Geometry-calculator";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.vpal.geometrycalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Geometry Calculator App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,14 +492,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G6V8P6TAH6;
 				INFOPLIST_FILE = "Geometry calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "defualt.Geometry-calculator";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.vpal.geometrycalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Geometry Calculator App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
